@@ -112,7 +112,7 @@ footer {
 
 .site-title {
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-    font-size: clamp(2.5em, 12vw, 8em); /* Responsive scaling */
+    font-size: clamp(2.5em, 10vw, 12em); /* Responsive scaling */
     font-weight: bold;
     margin: 0 0 10px 0;
     text-align: left;
