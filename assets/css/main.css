@@ -1,6 +1,6 @@
 html {
     color: #1A1A1A; /* Accessible dark text */
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif; /* Match title font */
+    font-family: 'Lato', 'Segoe UI', Arial, Helvetica, sans-serif; /* Match title font */
     background-color: #CCDD3D; /* New background */
     background-image: url("/images/logo-background.svg");
     /* background-repeat: repeat-x; */
@@ -82,9 +82,9 @@ footer {
 }
 
 .site-title {
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-family: 'Lato', 'Segoe UI', Arial, Helvetica, sans-serif;
     font-size: clamp(60px, 10vw, 80px); /* Responsive scaling */
-    font-weight: bold;
+    font-weight: 700;
     margin: 0;
     text-align: left;
     color: #1A1A1A;
@@ -98,7 +98,7 @@ footer {
 
 .site-title .second-line {
     display: block;
-    transform: translateX(-5px); /* Adjust as needed */
+    transform: translateX(-3px); /* Adjust as needed */
 }
 
 .headshot-container {
@@ -205,9 +205,9 @@ footer {
     background-color: #E6F27C; /* Slightly lighter than background for contrast */
     /* background-color: #CCDD3D; /* Same as background*/
     border-right: 0px solid #B0B800;
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif; /* Match title font */
+    font-family: 'Lato', 'Segoe UI', Arial, Helvetica, sans-serif; /* Match title font */
     font-size: 1.2em; /* Optional: make it larger for emphasis */
-    font-weight: bold; /* Optional: match boldness */
+    font-weight: 400; /* Optional: match boldness */
     transition: background 0.1s, color 0.1s;
 }
 
@@ -228,7 +228,7 @@ footer {
 }
 
 .site-logo {
-    height: 1.2em;           /* Match nav link font size */
+    height: 1.1em;           /* Match nav link font size */
     vertical-align: middle;  /* Align with text */
     margin-right: 0em;     /* Space after logo */
     margin-top: -0.2em;      /* Fine-tune vertical alignment if needed */
