@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="/assets/css/fonts/fonts.css">
     <link rel="stylesheet" href="/assets/css/main.css" />
-    <meta http-equiv="refresh" content="3; url=/" />
+    <meta http-equiv="refresh" content="10; url=/" />
 </head>
 <body>
     <main class="content-wrapper">
         <h2>404 – Page Not Found</h2>
         <p>Sorry, the page you are looking for does not exist.</p>
+        <p id="requested-url"></p>
         <p>You will be redirected to the <a href="/">homepage</a> in a few seconds.</p>
     </main>
     <footer>
@@ -26,5 +27,23 @@
             </div>
         </div>
     </footer>
+    <script>
+    function escapeHTML(str) {
+        return str.replace(/[&<>"']/g, function(m) {
+            return ({
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#39;'
+            })[m];
+        });
+    }
+    // Show the requested URL on the 404 page
+        document.getElementById('requested-url').innerHTML =
+            'Requested URL: <strong>' + escapeHTML(window.location.href) + '</strong>'
+        window.location.search +
+        window.location.hash;
+    </script>
 </body>
 </html>
