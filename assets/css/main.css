@@ -2,7 +2,7 @@ html {
     color: #1A1A1A; /* Accessible dark text */
     font-family: 'Lato', 'Segoe UI', Arial, Helvetica, sans-serif; /* Match title font */
     background-color: #CCDD3D; /* New background */
-    background-image: url("/images/logo-background.svg");
+    background-image: url("/assets/images/logo-background.svg");
     /* background-repeat: repeat-x; */
     background-repeat: no-repeat;
     background-position: top center;
