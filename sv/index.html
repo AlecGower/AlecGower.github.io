@@ -1,36 +1,13 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="sv">
 	<head>
-        <script>
-        // Only run on the homepage (not in /en/ or /sv/)
-        if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
-            var lang = (navigator.language || navigator.userLanguage || "en").toLowerCase();
-            if (lang.startsWith("sv")) {
-            window.location.replace("/sv");
-            } else {
-            window.location.replace("/en");
-            }
-        }
-        </script>
 		<title>Alec Gower</title>
-        <meta http-equiv="Content-Security-Policy" content="
-            default-src 'self';
-            script-src 'self';
-            style-src 'self' 'unsafe-inline';
-            font-src 'self';
-            img-src 'self' data:;
-            connect-src 'self';
-            object-src 'none';
-            base-uri 'self';
-            form-action 'self';
-            frame-ancestors 'none';
-        ">
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="stylesheet" href="/assets/css/fonts/fonts.css">
 		<link rel="stylesheet" href="/assets/css/main.css" />
 	</head>
@@ -44,8 +21,8 @@
         <div class="header-right">
             <div class="headshot-container">
                 <img
-                    src="/assets/images/headshot.png"
-                    alt="A headshot of Alec Gower smiling against a snowy background"
+                    src="/images/headshot.png"
+                    alt="Ett porträttfoto av Alec Gower leende i snön"
                     class="headshot"
                     style="max-width:100%">
             </div>
@@ -54,7 +31,7 @@
     <nav class="horizontal-bar">
     <ul>
         <li>
-          <a href="/" class="active site-logo-link">
+          <a href="/sv" class="active site-logo-link">
 			<svg class="site-logo" width="32" height="32" viewBox="0 0 329 304" aria-label="Alec Gower logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.5;">
 				<g transform="matrix(1,0,0,1,-24.8926,-38.6471)">
 					<path class="logo-line" d="M242.204,50.365C210.378,113.164 132.344,205.7 72.793,205.7C38.907,205.7 36.706,179.2 36.613,170.082C36.362,145.461 61.297,98.872 100.391,98.541C187.984,97.798 231.65,203.082 231.72,324.439C231.51,332.14 225.952,333.186 225.667,324.997C222.206,225.497 310.484,121.718 341.973,91.001" style="fill:none;stroke-width:30px;"/>
@@ -62,10 +39,10 @@
 			</svg>
           </a>
         </li>
-        <li class="block"><a href="/en/bio">About Me</a></li>
-        <li class="block"><a href="/en/research">Research</a></li>
-        <li class="block"><a href="/en/publications">Publications</a></li>
-        <li class="block"><a href="/en/contact">Contact</a></li>
+        <li class="block"><a href="/sv/om-mig">Om Mig</a></li>
+        <li class="block"><a href="/sv/forskning">Forskning</a></li>
+        <li class="block"><a href="/sv/publikationer">Publikationer</a></li>
+        <li class="block"><a href="/sv/kontakt">Kontakt</a></li>
     </ul>
 	</nav>
     <main></main>
