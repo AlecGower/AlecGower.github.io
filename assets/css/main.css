@@ -53,7 +53,14 @@ footer {
 }
 .footer-links a:hover,
 .footer-links a:focus {
-    color: #00796b;
+    background-color:#f3f8c3;
+}
+
+.text-hrule {
+    border-top: 1px solid #1A1A1A;
+    border-bottom: 0px;
+    height: 0px;
+    margin: 3em 8em;
 }
 
 .main-header {
@@ -275,6 +282,16 @@ footer {
     box-sizing: border-box;
 }
 
+.content-wrapper a, .content-wrapper-wide a {
+    color: #1A1A1A;
+    text-decoration: underline;
+    transition: text-decoration 0.15s, color 0.15s;
+}
+
+.content-wrapper a:hover, .content-wrapper a:focus, .content-wrapper-wide a:hover, .content-wrapper-wide a:focus {
+    background-color:#f3f8c3;
+}
+
 /* Publications list: use dashes and custom link style */
 .content-wrapper-wide ul {
     list-style-type: none;
@@ -297,11 +314,61 @@ footer {
 
 .content-wrapper-wide ul li a {
     color: #1A1A1A;
-    text-decoration: none;
+    text-decoration: underline;
     transition: text-decoration 0.15s, color 0.15s;
 }
 
 .content-wrapper-wide ul li a:hover,
 .content-wrapper-wide ul li a:focus {
+    background-color:#f3f8c3;
+}
+
+.content-wrapper-wide ol {
+    list-style-type: upper-roman;
+    padding-left: 1.2em;
+}
+
+.content-wrapper-wide ol li {
+    position: relative;
+    margin-bottom: 0.8em;
+    padding-left: 1em;
+}
+
+.content-wrapper-wide ol li::before {
+    /* content: "–"; */
+    position: absolute;
+    left: 0;
+    color: #1A1A1A;
+    font-weight: bold;
+}
+
+.content-wrapper-wide ol li a {
+    color: #1A1A1A;
     text-decoration: underline;
+    transition: text-decoration 0.15s, color 0.15s;
+}
+
+.content-wrapper-wide ol li a:hover,
+.content-wrapper-wide ol li a:focus {
+    background-color:#f3f8c3;
+}
+
+.file-tree {
+    padding: 0 2em;
+}
+
+.file-tree ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0.5em;
+}
+.file-tree a {
+    color: #1A1A1A;
+    text-decoration: underline;
+    transition: text-decoration 0.15s, color 0.15s;
+}
+
+.file-tree a:hover,
+.file-tree a:focus {
+    background-color:#f3f8c3;
 }
