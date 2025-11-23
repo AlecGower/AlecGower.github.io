@@ -228,10 +228,18 @@ footer {
 }
 
 .site-logo {
+    display: inline-block !important;
     height: 1.1em;           /* Match nav link font size */
     vertical-align: middle;  /* Align with text */
     margin-right: 0em;     /* Space after logo */
     margin-top: -0.2em;      /* Fine-tune vertical alignment if needed */
+}
+
+.site-logo-link .logo-fallback {
+    display: none !important;           /* hide fallback when CSS is active */
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    font-size: 0.95rem;
+    color: inherit;
 }
 
 .horizontal-bar ul li:first-child {
