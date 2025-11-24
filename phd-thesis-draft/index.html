@@ -21,7 +21,7 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
         <link rel="stylesheet" href="/assets/css/fonts/fonts.css">
-		<link rel="stylesheet" href="/assets/css/main.css" />
+		<link rel="stylesheet" href="/assets/css/main.css?2025-11-24" />
 	</head>
 	<body>
     <header class="main-header">
@@ -43,7 +43,7 @@
     <nav class="horizontal-bar">
     <ul>
         <li>
-            <a href="/" class="active site-logo-link" aria-label="Site Home">
+            <a href="/" class="site-logo-link" aria-label="Site Home">
                 <span class="logo-fallback">Site Home</span>
                 <svg class="site-logo" width="32" height="32" viewBox="0 0 329 304" aria-hidden="true" focusable="false"  aria-label="Alec Gower logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="display:none;fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.5;">
                     <g transform="matrix(1,0,0,1,-24.8926,-38.6471)">
@@ -68,30 +68,30 @@
         <div class="file-tree"><pre style="overflow-x: auto;">
 ├── <a href="alexander-gower-phd-thesis-draft-2025-11-23/abstract-and-summary.pdf">abstract-and-summary.pdf</a>
 └── papers
-    ├── <a href="1-The_use_of_AI_robotic_systems_for_scientific_discovery.pdf">1-The_use_of_AI_robotic_systems_for_scientific_discovery.pdf</a>
-    ├── <a href="2-RIMBO_springer.pdf">2-RIMBO_springer.pdf</a>
-    ├── <a href="3-LGEMplus_springer_ml_extension.pdf">3-LGEMplus_springer_ml_extension.pdf</a>
-    ├── <a href="4-Graph_Neural_Network_based_heirarchy_aware_box_embeddings.pdf">4-Graph_Neural_Network_based_heirarchy_aware_box_embeddings.pdf</a>
-    ├── <a href="5-Investigating uncharacterised genes in Saccharomyces cerevisiae using Robot Scientists.pdf">5-Investigating uncharacterised genes in Saccharomyces cerevisiae using Robot Scientists.pdf</a>
-    └── <a href="6-Agentic_AI_Integrated_with_Scientific_Knowledge.pdf">6-Agentic_AI_Integrated_with_Scientific_Knowledge.pdf</a></pre>
+    ├── <a href="alexander-gower-phd-thesis-draft-2025-11-23/papers/1-The_use_of_AI_robotic_systems_for_scientific_discovery.pdf">1-The_use_of_AI_robotic_systems_for_scientific_discovery.pdf</a>
+    ├── <a href="alexander-gower-phd-thesis-draft-2025-11-23/papers/2-RIMBO_springer.pdf">2-RIMBO_springer.pdf</a>
+    ├── <a href="alexander-gower-phd-thesis-draft-2025-11-23/papers/3-LGEMplus_springer_ml_extension.pdf">3-LGEMplus_springer_ml_extension.pdf</a>
+    ├── <a href="alexander-gower-phd-thesis-draft-2025-11-23/papers/4-Graph_Neural_Network_based_heirarchy_aware_box_embeddings.pdf">4-Graph_Neural_Network_based_heirarchy_aware_box_embeddings.pdf</a>
+    ├── <a href="alexander-gower-phd-thesis-draft-2025-11-23/papers/5-Investigating uncharacterised genes in Saccharomyces cerevisiae using Robot Scientists.pdf">5-Investigating uncharacterised genes in Saccharomyces cerevisiae using Robot Scientists.pdf</a>
+    └── <a href="alexander-gower-phd-thesis-draft-2025-11-23/papers/6-Agentic_AI_Integrated_with_Scientific_Knowledge.pdf">6-Agentic_AI_Integrated_with_Scientific_Knowledge.pdf</a></pre>
         </div>
         <div class="content-wrapper-wide">
             <p>If you want to access a previous version for any reason, you can check the <a href="https://github.com/AlecGower/AlecGower.github.io/tree/main/phd-thesis-draft" target="_blank" rel="noopener">GitHub repository for this website</a>, where I will include meaningful commit messages about the changes to files and sections.</p>
             <p>Please send me a message at <a href="mailto:me@alecgower.com">me@alecgower.com</a> if there are any issues accessing the material.</p>
         <hr class="text-hrule">
             <div id="table-of-contents">
-                <a href="#abstract-header">Abstract</a><br>
-                <a href="#summary-header">Summary</a><br>
-                <a href="#included-papers-header">Included papers</a><br>
-                <a href="#additional-papers-header">Papers not included in thesis</a><br>
+                <a href="#abstract">Abstract</a><br>
+                <a href="#summary">Summary</a><br>
+                <a href="#included-papers">Included papers</a><br>
+                <a href="#additional-papers">Papers not included in thesis</a><br>
             </div>
-            <h2 id="abstract-header">Abstract</h2>
+            <h2 id="abstract">Abstract</h2>
                 <p>Scientific discovery is an active process of designing, testing, and improving theories about the natural world. To design an AI-robotic system that can automate this process is a grand challenge for 21st century science. This thesis examines the nature of scientific inquiry as it relates to machine learning, offering contributions to knowledge representations and reasoning frameworks, as well as demonstrations of their application in the field of systems biology.</p>
                 <p>Systems biology is an integrationist approach to biological science, meaning we treat organisms as complex systems whose behaviour is dictated by the interaction of their constituent parts. Because eukaryotic organisms are extremely complex systems, research progress in systems biology can be slow. Recent advances in robotics, and more importantly in artificial intelligence&nbsp;(AI), offer great opportunity for automating scientific discovery in this field.</p>
                 <p>Using the model organism <em>Saccharomyces&nbsp;cerevisiae</em>, baker's yeast, this thesis explores: the philosophical and practical motivations for the use of automation in biological research; the structure of knowledge models, experimental data, and hypotheses in systems biology; and computational models of metabolism, a core component of systems biology.</p>
                 <p>The first main contribution is a first-order logic framework for modelling cellular physiology, which enables abduction of hypotheses for improvement of knowledge models, coupling a set of predicates and clauses expressing biochemical reaction processes with an efficient automated theorem prover&nbsp;(ATP), iProver. The second main contribution of this thesis is an ontology for describing theory changes and hypotheses in a semantic and storage-efficient manner. The third main contribution is an application of graph neural networks&nbsp;(GNNs) to learn knowledge graph embeddings that are grounded both in empirical data and ontology structures. And the final main contribution is an end-to-end demonstration of autonomous hypothesis generation and experimentation, with particular treatment of the modelling of hypotheses using existing and new ontology terms, so that the knowledge graphs can be exploited and improved by LLM agents and human human scientists.</p>
                 <p>The contributions of this thesis serve to demonstrate the power of knowledge graphs as a basis for autonomous scientific discovery. Their structure can inform algorithmic hypothesis generation, interface with robotic systems for laboratory experiments, enable fast deduction and theory repair, and relate to the metadata of science. We also claim that scientific discovery should be viewed as a supervised learning problem rather than reinforcement learning, and in the case of AI scientists, one of active learning. By mapping concepts from machine learning algorithms to the domain, we obtain systems that align with scientific values which leads to improved theories.</p>
-            <h2 id="summary-header">Summary</h2>
+            <h2 id="summary">Summary</h2>
                 <h3>Automation of scientific discovery</h3>
                 <ul> 
                     <li>Scientific discovery should be viewed by machine learning researchers as supervised learning, specifically as an active learning problem. </li>
@@ -119,7 +119,7 @@
                     <li>Box embeddings learned using a GNN, to convey information from knowledge graph neighbours, learn the class hierarchy of the ontologies more effectively than without the GNN. </li>
                     <li>Knowledge graph box embedding distance (from one set of embeddings to another) contains information that could be useful for evaluating candidate revisions to the graph.</li>
                 </ul>
-            <h2 id="included-papers-header">Included papers</h2>
+            <h2 id="included-papers">Included papers</h2>
                 <ol type="I">
                     <li>
                         <strong>A. H. Gower</strong>, D. Brunnsåker, F. Kronström, G. K. Reder,
@@ -164,7 +164,7 @@
                         Under submission.
                     </li>
                 </ol>
-            <h2 id="additional-papers-header">Papers not included in thesis</h2>
+            <h2 id="additional-papers">Papers not included in thesis</h2>
                 <ol type="a">
                     <li>
                         <strong>A. H. Gower</strong>, K. Korovin, D. Brunnsåker, I. A. Tiukova, R. D. King —
